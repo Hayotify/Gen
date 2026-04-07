@@ -1,0 +1,235 @@
+{
+    "ROOM_ID": "691874c611937146e17a372b",
+    "API_TOKEN": "4fe9aa70befbd1e5429a7d057f80d89f1a2902962cebc97bc40da6794666562b",
+    "OWNERS": [
+        "harmanpreet_19",
+        "genesisss_"
+    ],
+    "icecast_url": "icecast://source:Sachin2005@crossover.proxy.rlwy.net:27514/venom",
+    "SAVED_POSITION": {
+        "x": 3.0,
+        "y": 0.5,
+        "z": 7.5,
+        "facing": "FrontLeft"
+    },
+    "SUBSCRIBERS": [
+        "harmanpreet_19",
+        "ChaosOnx",
+        "sambee5",
+        "alluumeh",
+        "goatdaddy",
+        "livelycadaver",
+        "gummycat777",
+        "Miko_Rodrigez",
+        "leehdadski",
+        "Reiikaaa"
+    ],
+    "VIPS": [],
+    "TELEPORT_LOCATIONS": {
+        "f1": {
+            "pos": {
+                "x": 5.0,
+                "y": 0.0,
+                "z": 7.0,
+                "facing": "BackLeft"
+            },
+            "vip": false
+        },
+        "f2": {
+            "pos": {
+                "x": 6.0,
+                "y": 0.0,
+                "z": 7.5,
+                "facing": "FrontRight"
+            },
+            "vip": false
+        },
+        "vip": {
+            "pos": {
+                "x": 3.5,
+                "y": 0.0,
+                "z": 7.5,
+                "facing": "FrontRight"
+            },
+            "vip": true
+        },
+        "warps": {
+            "pos": {
+                "x": 4.5,
+                "y": 5.0,
+                "z": 4.5,
+                "facing": "FrontRight"
+            },
+            "vip": false
+        },
+        "bed:set warps": {
+            "pos": {
+                "x": 4.5,
+                "y": 5.0,
+                "z": 3.0,
+                "facing": "FrontRight"
+            },
+            "vip": false
+        },
+        "f1:set warps": {
+            "pos": {
+                "x": 3.5,
+                "y": 0.5,
+                "z": 7.5,
+                "facing": "FrontRight"
+            },
+            "vip": false
+        }
+    },
+    "MODERATORS": [
+        "genesisss_",
+        "Reiikaaa",
+        "leehdadski"
+    ],
+    "AUTO_SYNCED_OWNERS": [],
+    "AUTO_SYNCED_MODS": [],
+    "ORIGINAL_OUTFIT": [
+        {
+            "id": "body-flesh",
+            "amount": 1
+        },
+        {
+            "id": "shirt-n_mayflowersudcskypass2023larkzeibluedaisyjacket",
+            "amount": 1
+        },
+        {
+            "id": "pants-n_items2021blackjoggers",
+            "amount": 1
+        },
+        {
+            "id": "nose-n_01",
+            "amount": 1
+        },
+        {
+            "id": "glasses-n_registrationavatars2023billieglasses",
+            "amount": 1
+        },
+        {
+            "id": "shoes-n_platformsneakerblack",
+            "amount": 1
+        },
+        {
+            "id": "mouth-n_aprilfoolsinvisible2020mouth",
+            "amount": 1
+        },
+        {
+            "id": "hair_front-n_malenew01",
+            "amount": 1
+        },
+        {
+            "id": "hair_back-n_malenew01",
+            "amount": 1
+        },
+        {
+            "id": "eye-n_basic2018zanyeyes",
+            "amount": 1
+        },
+        {
+            "id": "eyebrow-n_21",
+            "amount": 1
+        }
+    ],
+    "BOT_OUTFIT": [
+        {
+            "id": "body-flesh",
+            "amount": 1
+        },
+        {
+            "id": "freckle-n_basic2018freckle04",
+            "amount": 1
+        },
+        {
+            "id": "eyebrow-n_princesscomplex2025set6sharp",
+            "amount": 1
+        },
+        {
+            "id": "mouth-n_kpopidolgrab12024tororoxismkjeyzgrlcrushpout",
+            "amount": 1
+        },
+        {
+            "id": "hat-n_muthurmaterialgirls2025_diamondearring",
+            "amount": 1
+        },
+        {
+            "id": "freckle-n_michimacchiattobrandgrab2022blush",
+            "amount": 1
+        },
+        {
+            "id": "freckle-n_freshfacedcrew2024yimbowblush",
+            "amount": 1
+        },
+        {
+            "id": "freckle-n_registrationavatars2023contour",
+            "amount": 1
+        },
+        {
+            "id": "hat-n_takeyourpickprankudceventcrewrewards2024papaprawnhairsparkles",
+            "amount": 1
+        },
+        {
+            "id": "tattoo-n_promperfectudcgrabone2024cyberknighteveningcontour",
+            "amount": 1
+        },
+        {
+            "id": "shirt-n doodlekitchen2026pinksparkletop",
+            "amount": 1
+        },
+        {
+            "id": "shoes-n_wildinstincts2025set2jaguarprintplataformslippers",
+            "amount": 1
+        },
+        {
+            "id": "skirt-n_socialmediaitemsapr2025skirt",
+            "amount": 1
+        },
+        {
+            "id": "sock-n_augustskypassshoeriseudc2023feetwtoes",
+            "amount": 1
+        },
+        {
+            "id": "glasses-n_muthurcosmeticsbrand2022glitterinnercorners",
+            "amount": 1
+        },
+        {
+            "id": "gloves-n_heartmartgrab2023scrunchy",
+            "amount": 1
+        },
+        {
+            "id": "hat-n_gothictropic2025set7stripedhat",
+            "amount": 1
+        },
+        {
+            "id": "eye-n_pookiefyudc2026set12tottylovingeyes",
+            "amount": 1
+        },
+        {
+            "id": "bag-n_bloomifyudc2026set7frillypurse",
+            "amount": 1
+        },
+        {
+            "id": "gloves-n_jewelriseudc2023spillymillygiantring",
+            "amount": 1
+        },
+        {
+            "id": "nose-n_grabtwofreshfaced2024softblushstardst",
+            "amount": 1
+        },
+        {
+            "id": "handbag-n_serenefit2026set7matcha",
+            "amount": 1
+        },
+        {
+            "id": "hair_front-n_hottaketwoudcgrab012024stephanieskysleeksilky",
+            "amount": 1
+        },
+        {
+            "id": "hair_back-n_hottaketwoudcgrab012024stephanieskysleeksilky",
+            "amount": 1
+        }
+    ]
+}

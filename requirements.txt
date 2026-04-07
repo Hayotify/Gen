@@ -1,0 +1,4 @@
+highrise-bot-sdk
+python-dotenv
+aiohttp
+yt-dlp
