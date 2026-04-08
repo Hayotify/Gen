@@ -2407,6 +2407,7 @@ class MusicBot(BaseBot):
     async def fetch_and_save_playlist(self, playlist_url: str) -> int:
         """Fetch all songs from a YouTube playlist via yt-dlp and save to dj.txt. Returns count."""
         import yt_dlp
+        import os
         playlist_url = self.extract_playlist_url(playlist_url)
         ydl_opts = {
             'quiet': True,
@@ -2415,6 +2416,8 @@ class MusicBot(BaseBot):
             'noplaylist': False,
             'ignoreerrors': True,
         }
+        if os.path.isfile('cookies.txt'):
+            ydl_opts['cookiefile'] = 'cookies.txt'
         def extract():
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 return ydl.extract_info(playlist_url, download=False)
@@ -2463,6 +2466,7 @@ class MusicBot(BaseBot):
             return None, None, 0
         try:
             import yt_dlp
+            import os
             is_url = "://" in query
             search_term = query if is_url else f"ytsearch1:{query}"
             ydl_opts = {
@@ -2473,6 +2477,8 @@ class MusicBot(BaseBot):
                 'extract_flat': 'in_playlist',
                 'noplaylist': True,
             }
+            if os.path.isfile('cookies.txt'):
+                ydl_opts['cookiefile'] = 'cookies.txt'
             def extract():
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     return ydl.extract_info(search_term, download=False)
@@ -2493,6 +2499,7 @@ class MusicBot(BaseBot):
         """Resolve a YouTube URL to a direct audio stream URL for FFmpeg."""
         try:
             import yt_dlp
+            import os
             ydl_opts = {
                 'format': 'bestaudio/best',
                 'quiet': True,
@@ -2500,6 +2507,8 @@ class MusicBot(BaseBot):
                 'nocheckcertificate': True,
                 'noplaylist': True,
             }
+            if os.path.isfile('cookies.txt'):
+                ydl_opts['cookiefile'] = 'cookies.txt'
             def extract():
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     return ydl.extract_info(youtube_url, download=False)
